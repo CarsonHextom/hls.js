@@ -15742,7 +15742,13 @@ try {
   now = self.performance.now.bind(self.performance);
 } catch (err) {
   _utils_logger__WEBPACK_IMPORTED_MODULE_9__["logger"].debug('Unable to use Performance API on this environment');
-  now = self.Date.now;
+
+  // Hard coded by Hextom
+  try {
+    now = self.Date.now;
+  } catch (e) {
+    // do nothing
+  }
 }
 
 var muxConfig = [{
