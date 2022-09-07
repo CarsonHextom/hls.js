@@ -1,0 +1,1 @@
+{"version":3,"file":"mediakeys-helper.d.ts","sourceRoot":"","sources":["../../src/utils/mediakeys-helper.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,oBAAY,UAAU;IACpB,QAAQ,uBAAuB;IAC/B,SAAS,4BAA4B;CACtC;AAED,oBAAY,YAAY,GAAG,CACzB,SAAS,EAAE,UAAU,EACrB,uBAAuB,EAAE,2BAA2B,EAAE,KACnD,OAAO,CAAC,oBAAoB,CAAC,CAAC;AACnC,QAAA,MAAM,2BAA2B,qBAU7B,CAAC;AAEL,OAAO,EAAE,2BAA2B,EAAE,CAAC"}
